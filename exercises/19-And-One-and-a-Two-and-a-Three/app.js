@@ -3,6 +3,8 @@ contact = {
     phone: "321-321-4321",
     email: "test@test.com"
 }
+let datos = [];
 for(key in contact){
-    // Code goes here
+  datos.push(key + " : " + contact[key])
 }
+ console.log(datos.join(''))
